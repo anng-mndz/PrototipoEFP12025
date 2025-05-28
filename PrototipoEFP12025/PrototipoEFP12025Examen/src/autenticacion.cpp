@@ -1,3 +1,5 @@
+//Luis Angel Mendez Fuentes
+//9959-24-6845
 #include "autenticacion.h"
 #include <iostream>
 #include <fstream>
@@ -8,26 +10,30 @@ std::string nombreCompleto = "";
 
 struct Usuario {
     char username[20];
-    char password[20];
     char nombreCompleto[50];
 };
 
 bool autenticarUsuario() {
-    std::string user, pass;
+    std::string user;
     std::cout << "Usuario: ";
     std::cin >> user;
-    std::cout << "Contraseña: ";
-    std::cin >> pass;
 
-    std::ifstream file("data/usuarios.dat", std::ios::binary);
+    std::ifstream file("usuarios.bin", std::ios::binary);
+    if (!file) {
+        std::cout << "No se pudo abrir el archivo de usuarios.\n";
+        return false;
+    }
+
     Usuario u;
     while (file.read(reinterpret_cast<char*>(&u), sizeof(u))) {
-        if (user == u.username && pass == u.password) {
+        if (user == std::string(u.username)) {
             usuarioActual = u.username;
             nombreCompleto = u.nombreCompleto;
             return true;
         }
     }
+
+    std::cout << "Usuario no encontrado.\n";
     return false;
 }
 
@@ -38,3 +44,5 @@ std::string obtenerUsuarioActual() {
 std::string obtenerNombreCompleto() {
     return nombreCompleto;
 }
+
+

@@ -1,9 +1,12 @@
+//Luis Angel Mendez Fuentes
+//9959-24-6845
 #include "menu.h"
 #include "catalogo.h"
 #include "seguridad.h"
 #include "reportes.h"
 #include "autenticacion.h"
 #include <iostream>
+
 
 void mostrarMenuGeneral() {
     int opcion;

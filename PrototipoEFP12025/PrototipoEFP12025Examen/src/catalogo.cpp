@@ -1,3 +1,5 @@
+//Luis Angel Mendez Fuentes
+//9959-24-6845
 #include "catalogo.h"
 #include "seguridad.h"
 #include <iostream>
