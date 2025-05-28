@@ -1,0 +1,71 @@
+commit 5b544b999806bc0eb684b46b5270a62857e2ec6c
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 11:28:54 2025 -0600
+
+    Arreglos
+
+commit 870438edc93c78847d8decbeafc1ee7ac144a5a3
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 11:08:14 2025 -0600
+
+    Arreglos y documentacion
+
+commit 52767e8d3d365f1d22128c5be4dbd2fb40859c83
+Merge: 9945a77 c73b54a
+Author: Angel Mendez <lmendezf1@miumg.edu.gt>
+Date:   Wed May 28 10:56:18 2025 -0600
+
+    Merge pull request #2 from anng-mndz/RamaMenuGeneral9959246845
+    
+    Rama menu general9959246845
+
+commit c73b54a36b89359f195c531afcc38902f025a0bc
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:54:57 2025 -0600
+
+    Solucion
+
+commit 6e262717c356fbaddf4715466a36b006cb873c14
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:50:47 2025 -0600
+
+    Agregue menu y arreglos aparte
+
+commit 07e3b17b7d2ae7128c188098ade574fe9702f997
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:27:51 2025 -0600
+
+    Agregue autenticacion y catalogo
+
+commit 9945a77e978f5b3f4bd7781b38c03a6af84def3b
+Merge: 7a6d90a 5992063
+Author: Angel Mendez <lmendezf1@miumg.edu.gt>
+Date:   Wed May 28 10:25:24 2025 -0600
+
+    Merge pull request #1 from anng-mndz/RamaMenuGeneral9959246845
+    
+    Rama menu general9959246845
+
+commit 5992063c484adde60201d04162d1d57481b433ff
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:24:19 2025 -0600
+
+    Agregue menu
+
+commit c58e9350b96b627f887823288491375efd41a2a0
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:17:11 2025 -0600
+
+    Agregue menu y otros modulos
+
+commit a0a8a1ce2bc789f5699680fa68a186ef28fa81c8
+Author: [Angel Mendez] <[lmendezf1@miumg.edu.gt]>
+Date:   Wed May 28 10:01:20 2025 -0600
+
+    Agregando menu general
+
+commit 7a6d90a38221c312b17c8b7f49f139b1bb1c581d
+Author: Angel Mendez <lmendezf1@miumg.edu.gt>
+Date:   Wed May 28 09:37:56 2025 -0600
+
+    Initial commit
