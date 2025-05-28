@@ -1,48 +1,31 @@
-//Luis Angel Mendez Fuentes
-//9959-24-6845
-#include "autenticacion.h"
-#include <iostream>
-#include <fstream>
-#include <cstring>
+// Luis Angel Mendez Fuentes
+// 9959-24-6845
 
-std::string usuarioActual = "";
-std::string nombreCompleto = "";
+#ifndef AUTENTICACION_H
+#define AUTENTICACION_H
 
-struct Usuario {
-    char username[20];
-    char nombreCompleto[50];
-};
+#include <string>
 
-bool autenticarUsuario() {
-    std::string user;
-    std::cout << "Usuario: ";
-    std::cin >> user;
+/**
+ * @brief Solicita y verifica el usuario para autenticación.
+ *
+ * @return true si el usuario existe en el archivo usuarios.bin.
+ * @return false en caso contrario.
+ */
+bool autenticarUsuario();
 
-    std::ifstream file("usuarios.bin", std::ios::binary);
-    if (!file) {
-        std::cout << "No se pudo abrir el archivo de usuarios.\n";
-        return false;
-    }
+/**
+ * @brief Devuelve el nombre de usuario autenticado.
+ *
+ * @return std::string con el nombre de usuario actual.
+ */
+std::string obtenerUsuarioActual();
 
-    Usuario u;
-    while (file.read(reinterpret_cast<char*>(&u), sizeof(u))) {
-        if (user == std::string(u.username)) {
-            usuarioActual = u.username;
-            nombreCompleto = u.nombreCompleto;
-            return true;
-        }
-    }
+/**
+ * @brief Devuelve el nombre completo del usuario autenticado.
+ *
+ * @return std::string con el nombre completo.
+ */
+std::string obtenerNombreCompleto();
 
-    std::cout << "Usuario no encontrado.\n";
-    return false;
-}
-
-std::string obtenerUsuarioActual() {
-    return usuarioActual;
-}
-
-std::string obtenerNombreCompleto() {
-    return nombreCompleto;
-}
-
-
+#endif
