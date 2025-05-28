@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1748448849 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025\src\autenticacion.cpp
+	"autenticacion.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748448848 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025\include\autenticacion.h
+	<string>
+
+1748448849 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025\src\reportes.cpp
+	"reportes.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748448849 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025\include\reportes.h
+
