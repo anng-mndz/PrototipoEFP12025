@@ -20,17 +20,17 @@ void escribirBitacora(const std::string& accion) {
     time_t now = time(0);
     strftime(b.timestamp, sizeof(b.timestamp), "%Y-%m-%d %H:%M:%S", localtime(&now));
 
-    std::ofstream file("data/bitacora.dat", std::ios::binary | std::ios::app);
+    std::ofstream file("bitacora.bin", std::ios::binary | std::ios::app);
     file.write(reinterpret_cast<char*>(&b), sizeof(b));
 }
 
 void menuSeguridad() {
     Bitacora b;
     std::ifstream in("data/bitacora.dat", std::ios::binary);
-    std::cout << "\n--- BITÁCORA DE SEGURIDAD ---\n";
+    std::cout << "\n--- BITACORA DE SEGURIDAD ---\n";
     while (in.read(reinterpret_cast<char*>(&b), sizeof(b))) {
         std::cout << "Usuario: " << b.usuario
-                  << ", Acción: " << b.accion
+                  << ", Accion: " << b.accion
                   << ", Fecha/Hora: " << b.timestamp << "\n";
     }
 }

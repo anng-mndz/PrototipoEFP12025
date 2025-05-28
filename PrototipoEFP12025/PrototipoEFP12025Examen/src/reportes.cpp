@@ -14,7 +14,7 @@ struct Producto {
 void menuReportes() {
     Producto p;
     std::ifstream in("data/catalogo.dat", std::ios::binary);
-    std::ofstream out("informes/reporte_catalogo.txt");
+    std::ofstream out("reporte_catalogo.txt");
     out << "Código\tNombre\tPrecio\n";
     while (in.read(reinterpret_cast<char*>(&p), sizeof(p))) {
         out << p.codigo << "\t" << p.nombre << "\t" << p.precio << "\n";

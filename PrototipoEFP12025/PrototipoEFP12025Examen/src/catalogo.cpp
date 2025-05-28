@@ -17,7 +17,7 @@ void escribirBitacora(const std::string& accion);
 void agregarProducto() {
     Producto p;
     std::ofstream out("data/catalogo.dat", std::ios::binary | std::ios::app);
-    std::cout << "Código: "; std::cin >> p.codigo;
+    std::cout << "Codigo: "; std::cin >> p.codigo;
     std::cin.ignore();
     std::cout << "Nombre: "; std::cin.getline(p.nombre, 30);
     std::cout << "Precio: "; std::cin >> p.precio;
@@ -27,7 +27,7 @@ void agregarProducto() {
 
 void listarProductos() {
     Producto p;
-    std::ifstream in("data/catalogo.dat", std::ios::binary);
+    std::ifstream in("catalogo.bin", std::ios::binary);
     std::cout << "\n--- LISTA DE PRODUCTOS ---\n";
     while (in.read(reinterpret_cast<char*>(&p), sizeof(p))) {
         std::cout << "Código: " << p.codigo

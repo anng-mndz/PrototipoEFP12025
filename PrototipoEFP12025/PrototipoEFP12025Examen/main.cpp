@@ -9,10 +9,10 @@ int main() {
 
     // Luego intentamos autenticar usuario
     if (autenticarUsuario()) {
-        std::cout << "Autenticación exitosa. Usuario: " << obtenerUsuarioActual() << "\n";
+        std::cout << "Autenticacion exitosa. Usuario: " << obtenerUsuarioActual() << "\n";
         mostrarMenuGeneral();
     } else {
-        std::cout << "Autenticación fallida.\n";
+        std::cout << "Autenticacion fallida.\n";
     }
 
     return 0;
