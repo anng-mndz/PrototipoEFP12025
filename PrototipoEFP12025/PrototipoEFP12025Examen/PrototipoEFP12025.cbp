@@ -34,13 +34,17 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="include/agregarusuarios.h" />
 		<Unit filename="include/autenticacion.h" />
 		<Unit filename="include/catalogo.h" />
 		<Unit filename="include/menu.h" />
+		<Unit filename="include/stubs.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="src/agregarusuarios.cpp" />
 		<Unit filename="src/autenticacion.cpp" />
 		<Unit filename="src/catalogo.cpp" />
 		<Unit filename="src/menu.cpp" />
+		<Unit filename="src/stubs.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

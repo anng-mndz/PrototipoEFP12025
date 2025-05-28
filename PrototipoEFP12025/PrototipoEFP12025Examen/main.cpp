@@ -1,13 +1,11 @@
 #include <iostream>
 #include "menu.h"
 #include "autenticacion.h"
-#include "agregarusuario.h"
+#include "agregarusuarios.h"
 
 int main() {
-    // Primero agregamos usuarios si quieres (puedes comentar esta línea si no quieres agregar siempre)
-    agregarUsuarios();
+    agregarUsuario();
 
-    // Luego intentamos autenticar usuario
     if (autenticarUsuario()) {
         std::cout << "Autenticacion exitosa. Usuario: " << obtenerUsuarioActual() << "\n";
         mostrarMenuGeneral();
@@ -15,5 +13,8 @@ int main() {
         std::cout << "Autenticacion fallida.\n";
     }
 
+
+
     return 0;
 }
+
