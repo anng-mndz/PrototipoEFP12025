@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1584205420 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\main.cpp
+	<iostream>
+
+1748447607 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\src\catalogos.cpp
+	"catalogos.h"
+
+1748447607 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\include\catalogos.h
+
+1748447620 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\src\informes.cpp
+	"informes.h"
+
+1748447620 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\include\informes.h
+
+1748447630 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\src\seguridad.cpp
+	"seguridad.h"
+
+1748447630 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\include\seguridad.h
+
