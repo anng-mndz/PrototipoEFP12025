@@ -35,9 +35,11 @@
 			<Add option="-fexceptions" />
 		</Compiler>
 		<Unit filename="include/autenticacion.h" />
+		<Unit filename="include/catalogo.h" />
 		<Unit filename="include/menu.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/autenticacion.cpp" />
+		<Unit filename="src/catalogo.cpp" />
 		<Unit filename="src/menu.cpp" />
 		<Extensions>
 			<lib_finder disable_auto="1" />

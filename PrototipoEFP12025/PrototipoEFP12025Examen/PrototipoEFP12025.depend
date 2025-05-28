@@ -1,0 +1,65 @@
+# depslib dependency file v1.0
+1748450748 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\main.cpp
+	"menu.h"
+	"autenticacion.h"
+	<iostream>
+	"agregarusuario.h"
+
+1748450566 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\autenticacion.cpp
+	"autenticacion.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748450566 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\autenticacion.h
+	<string>
+
+1748449921 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\reportes.cpp
+	"reportes.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748450005 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\reportes.h
+	<iostream>
+
+1748450005 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\menu.h
+	<iostream>
+
+1748449921 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\catalogo.cpp
+	"catalogo.h"
+	"seguridad.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
+1748450005 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\catalogo.h
+	<iostream>
+
+1748450005 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\seguridad.h
+	<iostream>
+
+1748450005 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\menu.cpp
+	"menu.h"
+	"catalogo.h"
+	"seguridad.h"
+	"reportes.h"
+	"autenticacion.h"
+	<iostream>
+
+1748449921 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\seguridad.cpp
+	"seguridad.h"
+	"autenticacion.h"
+	<iostream>
+	<fstream>
+	<ctime>
+	<cstring>
+
+1748450982 c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\include\agregarusuario.h
+
+1748450950 source:c:\users\mende\onedrive\documents\laboratorio\progra1\prototipoefp12025\prototipoefp12025\prototipoefp12025examen\src\agregarusuario.cpp
+	"agregarusuario.h"
+	<iostream>
+	<fstream>
+	<cstring>
+
